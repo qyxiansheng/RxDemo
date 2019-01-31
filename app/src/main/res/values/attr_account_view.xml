@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AccountView">
+
+        <attr name="av_tip_text" format="string" />
+        <attr name="av_tip_textColor" format="color" />
+        <attr name="av_tip_textSize" format="dimension" />
+        <attr name="av_tip_marginLeft" format="dimension" />
+        <attr name="av_tip_marginRight" format="dimension" />
+
+        <attr name="av_input_text" format="string" />
+        <attr name="av_input_textColor" format="color" />
+        <attr name="av_input_textSize" format="dimension" />
+        <attr name="av_input_marginLeft" format="dimension" />
+        <attr name="av_input_marginRight" format="dimension" />
+        <attr name="av_input_hint" format="string" />
+        <attr name="av_input_maxLength" format="integer" />
+
+        <attr name="av_clear_mipmap" format="reference" />
+        <attr name="av_clear_drawable" format="reference" />
+        <attr name="av_clear_background" format="reference" />
+        <attr name="av_clear_width" format="dimension" />
+        <attr name="av_clear_height" format="dimension" />
+        <attr name="av_clear_marginTop" format="dimension" />
+        <attr name="av_clear_marginBottom" format="dimension" />
+        <attr name="av_clear_marginRight" format="dimension" />
+        <attr name="av_clear_padding" format="dimension" />
+
+    </declare-styleable>
+</resources>
