@@ -12,7 +12,7 @@ import com.qyue.rxdemo.widget.AccountView
  *  Date: 2019/1/18 0018 下午 4:19
  */
 class MainActivity : AppCompatActivity() {
-
+    private var account_view: AccountView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         //        if (getSupportActionBar() != null){
         //            getSupportActionBar().hide();
@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        account_view=findViewById(R.id.account_view)
     }
 
 }
