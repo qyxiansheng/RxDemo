@@ -31,8 +31,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+
         android:background="@drawable/login_panel"
         android:elevation="10dp"
+        android:orientation="vertical"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,22 +44,12 @@
         <com.qyue.rxdemo.widget.AccountView
             android:id="@+id/account_view"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            app:av_tip_text="haha"
-            app:av_tip_textColor="@color/white"
-            app:av_tip_textSize="11sp"
-            app:av_input_text="asd"
-            app:av_input_textSize="10sp"
-            app:av_input_textColor="@color/colorAccent"
-            app:av_input_hint="请输入账号"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="50dp"
+            app:av_input_hint="请输入电话号码"
             app:av_input_maxLength="11"
-            app:av_clear_drawable="@mipmap/login_account_clear"
-            app:av_clear_height="28dp"
-            app:av_clear_width="28dp"
-            app:av_clear_marginTop="6dp"
-            app:av_clear_marginBottom="6dp"
-            app:av_clear_marginRight="6dp"
-            ></com.qyue.rxdemo.widget.AccountView>
+            app:av_tip_text="用户账号"></com.qyue.rxdemo.widget.AccountView>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
