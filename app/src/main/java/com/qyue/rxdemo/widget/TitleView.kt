@@ -9,6 +9,9 @@ import android.widget.TextView
 
 import com.qyue.rxdemo.R
 
+/**
+ * TitleView
+ */
 class TitleView(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs) {
 
 //    // 返回按钮控件
