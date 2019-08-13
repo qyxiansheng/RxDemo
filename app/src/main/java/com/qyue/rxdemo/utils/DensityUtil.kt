@@ -2,6 +2,9 @@ package com.qyue.rxdemo.utils
 
 import android.content.Context
 
+/**
+ * DensityUtil
+ */
 object  DensityUtil{
      fun dp2px(context: Context,value: Int): Int {
         val v = context.getResources().getDisplayMetrics().density
